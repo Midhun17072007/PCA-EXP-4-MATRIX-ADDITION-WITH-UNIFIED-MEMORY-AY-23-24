@@ -550,4 +550,4 @@ int main(int argc, char **argv)
  
 
 ## RESULT:
-Thus, the program has been executed using CUDA Unified Memory on an NVIDIA Tesla T4 GPU with a matrix size of 4096 × 4096. It is observed that removing the memset() function has resulted in less execution time. The GPU execution time without memset() was 0.057521 seconds, whereas with memset() it was 0.091442 seconds so,the function has resulted in more execution time. Therefore, the execution without memset() was faster by approximately 37.1%, showing improved performance in this experiment.
+Thus, the program has been executed using CUDA Unified Memory on an NVIDIA Tesla T4 GPU with a matrix size of 4096 × 4096. It is observed that removing the memset() function has resulted in less execution time. The GPU execution time without memset() was 0.046434 seconds, whereas with memset() it was 0.056792 seconds so,the function has resulted in more execution time. Therefore, the execution without memset() was faster by approximately 37.1%, showing improved performance in this experiment.
